@@ -3,115 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/src/Estilos_CSS/output.css" rel="stylesheet">
+    <!-- <link href="/src/Estilos_CSS/output.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Datos Generales</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline bg-[#1da1f2]"> SISTEMA DE SOPORTE DE DECISIONES (DSS) </h1>
-    <h2>Factores de Desercion en el Tecnologico de Acapulco</h2>
+<body class="bg-sky-900 ">
+    <div class="flex justify-around items-center  bg-stone-300">
+        <div><img src="/src/Imgenes/Logo_Tec_Nacional.png" alt="Logo Tec Nacional" width="250" height="250"></div>
+        <div class="text-center">
+            <h1 > SISTEMA DE SOPORTE DE DECISIONES (DSS) </h1>
+            <h2>Factores de Desercion en el Tecnologico de Acapulco</h2> 
+        </div>
+        <div><img src="/src//Imgenes//Logo_Tec_Acapulco.png" alt="Logo Tec Acapulco" width="130" height="130"></div> 
+    </div>
     <hr>
-    <h2>Datos Generales del estudiantes </h2> 
-    <form>
-        <label>Nombre Completo</label> <br>
-        <input type="text" class="border border-gray-300" name="p1" placeholder="Nombre Completo"/> 
-        <br>
-        <label>Numero de Control</label> <br>
-        <input type="text" class="border border-gray-300" name="p1" placeholder="000000000"/> 
-        <br>
-        <label>Edad</label> <br>
-        <label >18-20 años</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >21-23 años</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >24 años o mas</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>Sexo</label> <br>
-        <label >Femenino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Musculino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>1.	¿Estás cursando esta carrera como tu primera opción?</label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>Sexo</label> <br>
-        <label >Femenino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Musculino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>1.	¿Estás cursando esta carrera como tu primera opción?</label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>2.	¿En qué semestre o año de tu carrera te encuentras actualmente?</label> <br>
-        <label >1er semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >2do semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >3er semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >4to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >5to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >6to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >7mo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >8vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >9vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/>
-        <label >10vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/>  
-        <br>
-        <label>3.	¿A qué carrera o área de estudio perteneces? </label> <br>
-        <label >ISC</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >IBQ</label> <input type="checkbox" name="p1" placeholder="p1"/>
-        <label >LA</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >IGE</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >ARQ</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >IEM</label> <input type="checkbox" name="p1" placeholder="p1"/>  
-        <label >CP</label> <input type="checkbox" name="p1" placeholder="p1"/>  
-        <br>
-        <label>4.	¿Lugar de Nacimiento? </label> <br>
-        <label >Acapulco, Guerrero</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Otro</label> <input type="checkbox" name="p1" placeholder="p1"/>  <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/> 
-        <br>
-        <label>5.	¿Vives en el puerto de acapulco? </label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>6.	¿En qué colonia?</label> <br>
-        <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/>
-        <br>
-        <label>7.	¿Eres primer miembro de tu familia en asistir a la universidad? </label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >No </label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>8.	¿En qué tipo de vivienda resides? </label> <br>
-        <label >Casa propia</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Departamento propio</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Otro </label> <input type="checkbox" name="p1" placeholder="p1"/>  <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/> 
-        <br>
-        <label>9.   ¿Pagas renta donde vives? </label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique Cantidad $10,0000"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>10.	¿Cuántos miembros componen tu familia (incluyéndote)? </label> <br>
-        <label >Unicamente yo</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >2-3 hermanos</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label>4 o mas hermanos </label> 
-        <br>
-        <label>11.	¿Tienes hijos o dependientes a tu cargo durante tus estudios? </label> <br>
-        <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique Cantidad"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>12.	¿Cuentas con algún tipo de apoyo familiar o de alguien cercano para continuar tus estudios? </label> <br>
-        <label >Si, ¿Que es para ti? </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Respuesta"/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <br>
-        <label>13.	¿Cuál es tu estado civil? </label> <br>
-        <label >Soltero(a) </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Respuesta"/> 
-        <label >Casado(a)</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Union libre</label> <input type="checkbox" name="p1" placeholder="p1"/> 
-        <label >Divorcioado(a)</label> <input type="checkbox" name="p1" placeholder="p1"/>
-        <br>
-        <label>14.	¿Tienes alguna discapacidad que afecte tu desempeño académico? </label> <br>
-        <label >Si </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Visual, Auditiva, etc. . ."/> 
-        <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/>  
-        <br>
-        <label>15.	¿Qué tipo de transporte utilizas para llegar a la universidad?</label> <br>
-        <label >Transporte publico </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Visual, Auditiva, etc. . ."/> 
-        <label >Vehiculo propio</label> <input type="checkbox" name="p1" placeholder="p1"/>
-        <label >Caminar</label> <input type="checkbox" name="p1" placeholder="p1"/>  
-
-    </form> 
+    <div class="flex justify-center">
+        <div class=" bg-stone-300 w-5/6  "> 
+            <h2>Datos Generales del estudiantes </h2> 
+            <form>
+                <label>Nombre Completo</label> <br>
+                <input type="text" class="border border-gray-300" name="p1" placeholder="Nombre Completo"/> 
+                <br>
+                <label>Numero de Control</label> <br>
+                <input type="text" class="border border-gray-300" name="p1" placeholder="000000000"/> 
+                <br>
+                <label>Edad</label> <br>
+                <label >18-20 años</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >21-23 años</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >24 años o mas</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>Sexo</label> <br>
+                <label >Femenino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Musculino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>1.	¿Estás cursando esta carrera como tu primera opción?</label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>Sexo</label> <br>
+                <label >Femenino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Musculino</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>1.	¿Estás cursando esta carrera como tu primera opción?</label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>2.	¿En qué semestre o año de tu carrera te encuentras actualmente?</label> <br>
+                <label >1er semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >2do semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >3er semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >4to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >5to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >6to semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >7mo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >8vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >9vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/>
+                <label >10vo semestre </label> <input type="checkbox" name="p1" placeholder="p1"/>  
+                <br>
+                <label>3.	¿A qué carrera o área de estudio perteneces? </label> <br>
+                <label >ISC</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >IBQ</label> <input type="checkbox" name="p1" placeholder="p1"/>
+                <label >LA</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >IGE</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >ARQ</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >IEM</label> <input type="checkbox" name="p1" placeholder="p1"/>  
+                <label >CP</label> <input type="checkbox" name="p1" placeholder="p1"/>  
+                <br>
+                <label>4.	¿Lugar de Nacimiento? </label> <br>
+                <label >Acapulco, Guerrero</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Otro</label> <input type="checkbox" name="p1" placeholder="p1"/>  <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/> 
+                <br>
+                <label>5.	¿Vives en el puerto de acapulco? </label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>6.	¿En qué colonia?</label> <br>
+                <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/>
+                <br>
+                <label>7.	¿Eres primer miembro de tu familia en asistir a la universidad? </label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >No </label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>8.	¿En qué tipo de vivienda resides? </label> <br>
+                <label >Casa propia</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Departamento propio</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Otro </label> <input type="checkbox" name="p1" placeholder="p1"/>  <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique"/> 
+                <br>
+                <label>9.   ¿Pagas renta donde vives? </label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique Cantidad $10,0000"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>10.	¿Cuántos miembros componen tu familia (incluyéndote)? </label> <br>
+                <label >Unicamente yo</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >2-3 hermanos</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label>4 o mas hermanos </label> 
+                <br>
+                <label>11.	¿Tienes hijos o dependientes a tu cargo durante tus estudios? </label> <br>
+                <label >Si</label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Especifique Cantidad"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>12.	¿Cuentas con algún tipo de apoyo familiar o de alguien cercano para continuar tus estudios? </label> <br>
+                <label >Si, ¿Que es para ti? </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Respuesta"/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <br>
+                <label>13.	¿Cuál es tu estado civil? </label> <br>
+                <label >Soltero(a) </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Respuesta"/> 
+                <label >Casado(a)</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Union libre</label> <input type="checkbox" name="p1" placeholder="p1"/> 
+                <label >Divorcioado(a)</label> <input type="checkbox" name="p1" placeholder="p1"/>
+                <br>
+                <label>14.	¿Tienes alguna discapacidad que afecte tu desempeño académico? </label> <br>
+                <label >Si </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Visual, Auditiva, etc. . ."/> 
+                <label >No</label> <input type="checkbox" name="p1" placeholder="p1"/>  
+                <br>
+                <label>15.	¿Qué tipo de transporte utilizas para llegar a la universidad?</label> <br>
+                <label >Transporte publico </label> <input type="checkbox" name="p1" placeholder="p1"/> <input type="text" class="border border-gray-300" name="p1" placeholder="Visual, Auditiva, etc. . ."/> 
+                <label >Vehiculo propio</label> <input type="checkbox" name="p1" placeholder="p1"/>
+                <label >Caminar</label> <input type="checkbox" name="p1" placeholder="p1"/>  
+        
+            </form>
+        </div>
+     
+    </div>
+ 
 </body>
 </html>
